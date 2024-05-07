@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario estudiantil</title>
+</head>
+<body>
+    <h1 style="text-align:center;">Colegio San jose de Guanenta</h1>
+     <h1 style="text-align:center;">Especialidad de Sistemas - 2024</h1>
+    <h1 style="text-align:center;">Datos del estudiante</h1>
+        <form action="procesar_formulario.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required>
+
+        <label for="lugar_nacimiento">Lugar de Nacimiento:</label>
+        <input type="text" id="lugar_nacimiento" name="lugar_nacimiento" required>
+
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+
+        <label for="tipo_identidad">Tipo de Identidad:</label>
+        <input type="text" id="tipo_identidad" name="tipo_identidad" required>
+
+        <label for="numero_identidad">Número de Identidad:</label>
+        <input type="text" id="numero_identidad" name="numero_identidad" required>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required>
+
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad" required>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
