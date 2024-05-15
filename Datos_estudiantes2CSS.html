@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario estudiantil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #45aada;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #40a8a3;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(24, 91, 122, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #1c476b;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #4c87c7;
+        }
+
+        .section-header {
+            margin-top: 40px;
+        }
+
+        .section-header + input[type="text"] {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Colegio San José de Guanenta</h1>
+    <h2 style="text-align: center;">Especialidad de Sistemas - 2024</h2>
+    <h2 style="text-align: center;">Datos del estudiante</h2>
+    <form action="procesar_formulario.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required>
+
+        <label for="lugar_nacimiento">Lugar de Nacimiento:</label>
+        <input type="text" id="lugar_nacimiento" name="lugar_nacimiento" required>
+
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+
+        <label for="tipo_identidad">Tipo de Identidad:</label>
+        <input type="text" id="tipo_identidad" name="tipo_identidad" required>
+
+        <label for="numero_identidad">Número de Identidad:</label>
+        <input type="text" id="numero_identidad" name="numero_identidad" required>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required>
+
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono" required>
+
+        <label for="celular">Celular:</label>
+        <input type="text" id="celular" name="celular" required>
+
+        <input type="submit" value="Enviar">
+
+        <h2 class="section-header">Datos del padre</h2>
+
+        <label for="padre_apellidos">Apellidos:</label>
+        <input type="text" id="padre_apellidos" name="padre_apellidos">
+
+        <label for="padre_nombre">Nombre:</label>
+        <input type="text" id="padre_nombre" name="padre_nombre">
+
+        <label for="padre_direccion">Dirección:</label>
+        <input type="text" id="padre_direccion" name="padre_direccion">
+
+        <label for="padre_barrio">Barrio:</label>
+        <input type="text" id="padre_barrio" name="padre_barrio">
+
+        <label for="padre_telefono">Teléfono:</label>
+        <input type="text" id="padre_telefono" name="padre_telefono">
+
+        <label for="padre_celular">Celular:</label>
+        <input type="text" id="padre_celular" name="padre_celular">
+
+        <label for="padre_email">E-mail:</label>
+        <input type="text" id="padre_email" name="padre_email">
+
+        <label for="padre_ocupacion">Ocupación:</label>
+        <input type="text" id="padre_ocupacion" name="padre_ocupacion">
+
+        <h2 class="section-header">Datos de la madre</h2>
+
+        <label for="madre_apellidos">Apellidos:</label>
+        <input type="text" id="madre_apellidos" name="madre_apellidos">
+
+        <label for="madre_nombre">Nombre:</label>
+        <input type="text" id="madre_nombre" name="madre_nombre">
+
+        <label for="madre_direccion">Dirección:</label>
+        <input type="text" id="madre_direccion" name="madre_direccion">
+
+        <label for="madre_barrio">Barrio:</label>
+        <input type="text" id="madre_barrio" name="madre_barrio">
+
+        <label for="madre_telefono">Teléfono:</label>
+        <input type="text" id="madre_telefono" name="madre_telefono">
+
+        <label for="madre_celular">Celular:</label>
+        <input type="text" id="madre_celular" name="madre_celular">
+
+        <label for="madre_email">E-mail:</label>
+        <input type="text" id="madre_email" name="madre_email">
+
+        <label for="madre_ocupacion">Ocupación:</label>
+        <input type="text" id="madre_ocupacion" name="madre_ocupacion">
+    </form>
+</body>
+</html>
+      
+
+
+</body>
+</html>
